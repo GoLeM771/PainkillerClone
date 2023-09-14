@@ -2123,46 +2123,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "UDP Messaging",
-				"Description": "Adds a UDP based transport and tunneling layer to the messaging sub-system for sending and receiving messages between networked computers and devices.",
-				"Category": "Messaging",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"SupportedPrograms": [
-					"UnrealFrontend",
-					"UnrealMultiUserServer",
-					"UnrealRecoverySvc",
-					"UnrealLightmass",
-					"CrashReportClientEditor"
-				],
-				"Modules": [
-					{
-						"Name": "UdpMessaging",
-						"Type": "RuntimeAndProgram",
-						"LoadingPhase": "PreDefault",
-						"WhitelistPrograms": [
-							"UnrealFrontend",
-							"UnrealMultiUserServer",
-							"UnrealRecoverySvc",
-							"UnrealLightmass",
-							"CrashReportClientEditor"
-						]
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/MovieScene/ActorSequence/ActorSequence.uplugin",
 			"Descriptor": 
 			{
